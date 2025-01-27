@@ -6,5 +6,4 @@ Intrepid Control Systems összefoglalója: [YouTube](https://www.google.com/sear
 Protokol specifikáció: [AUTOSAR_SOMEIP_Protocol_Specification.pdf](https://www.autosar.org/fileadmin/standards/R22-11/FO/AUTOSAR_PRS_SOMEIPProtocol.pdf)    
 COVESA vsomeip: [github wiki](https://github.com/COVESA/vsomeip/wiki/vsomeip-in-10-minutes)    
 COVESA vsomeip: [github source code](https://github.com/COVESA/vsomeip)    
-LinkedIn article: [Linkedin](https://www.linkedin.com/pulse/scalable-service-oriented-middleware-over-ip-annamalai-u7pgc)
 ### Egyéb dokumentumok ethernet-hez kapcsolódóan
