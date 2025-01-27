@@ -1,7 +1,7 @@
 # Dipterv
 ## Dipterv feladatkiírás
 ## SOME/IP dokumentációk, segédanyagok:
-Hivatalos weblap: https://some-ip.com/index.shtml   
-5 perces összefoglaló: https://youtu.be/s2W7wonyH0c   
-Protokol specifikáció: https://www.autosar.org/fileadmin/standards/R22-11/FO/AUTOSAR_PRS_SOMEIPProtocol.pdf
+Hivatalos weblap: [some-ip.com](https://some-ip.com/index.shtml)   
+Intrepid Control Systems összefoglalója: [YouTube](https://www.google.com/search?q=SOME%2FIP&oq=SOME%2FIP&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDrSAQk2NTEzajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:980d8950,vid:iDtseeMiHxg,st:0)   
+Protokol specifikáció: [AUTOSAR_SOMEIP_Protocol_Specification.pdf](https://www.autosar.org/fileadmin/standards/R22-11/FO/AUTOSAR_PRS_SOMEIPProtocol.pdf)
 ### Egyéb dokumentumok ethernet-hez kapcsolódóan
