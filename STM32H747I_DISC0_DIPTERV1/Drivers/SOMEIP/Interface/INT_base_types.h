@@ -15,16 +15,11 @@
 /* **************************************************** */
 
 #include "INT_primitive_types.h"
+#include "../Configuration/CONF_user_conf.h"
 
 /* **************************************************** */
 /*                       Defines                        */
 /* **************************************************** */
-
-/** 
- * Specification does not fix string length.
- * Memory constraint application requires short names.
- */
-#define MAX_STRING_SIZE             (30u)
 
 /**
  * [PRS_SOMEIP_00051] The Protocol Version shall be 1. (RS_SOMEIP_00027, RS_SOMEIP_00041)
@@ -112,7 +107,7 @@ typedef struct
 typedef uint8 Protocol_version;
 
 /**
- * contains the Major Version of the Service Interface.
+ * Contains the Major Version of the Service Interface (Major_int_version).
  */
 typedef uint8 Interface_version;
 
@@ -158,6 +153,25 @@ typedef enum
 
 } eReturn_code_t;
 
+
+// Addresses
+
+typedef union
+{
+    uint8 byte[4];
+    uint32 word;
+} IPv4_address;
+
+typedef union
+{
+    uint8 byte[16];
+    uint32 word[4];
+} IPv6_address;
+
+typedef uint16 Port;
+
+// Misc. types
+
 /**
  * Identification number for a specific service element.
  */
@@ -168,37 +182,36 @@ typedef uint16 Instance_number;
  */
 typedef uint32 Time_to_live;
 
-// UNEXPLAINED TYPES
-typedef uint16 eventgroup_t;
-typedef uint8 major_version_t;
-typedef uint32 minor_version_t;
-typedef uint16 diagnosis_t;
+/**
+ * A logical grouping of events and notification events of fields inside a service in order to allow subscription
+ */
+typedef uint16 Eventgroup;
 
-// Addresses
-
-typedef union
-{
-    uint8 byte[4];
-    uint32 word;
-    
-} IPv4_address;
-
-typedef union
-{
-    uint8 byte[16];
-    uint32 word[4];
-    
-} IPv6_address;
-
-typedef uint16 Port;
-
-typedef unsigned char trace_channel_t[MAX_STRING_SIZE];
-
-typedef unsigned char trace_filter_type_t[MAX_STRING_SIZE];
-
+/**
+ * Service ID for remotely offered services
+ */
 typedef uint32 pending_remote_offer_id_t;
 
-typedef uint32 pending_security_update_id_t;
+#if (TRUE == INTERFACE_SUBVERSIONS)
+// Misc. types
+
+/**
+ * NOT a message header field.
+ * Major version of the Service Interface.
+ * 
+ * @note [PRS_SOMEIP_00937] The Interface Version shall be increased for any of the following reasons: 
+ *             - incompatible changes in the Payload format
+ *             - incompatible changes in the service behaviour
+ *             - required by application design
+ */
+typedef uint8 Major_int_version;
+
+/**
+ * NOT a message header field.
+ * Minor interface version to indicate interface changes without changing the Major interface version.
+ */
+typedef uint32 Minor_int_version;
+#endif
 
 /* **************************************************** */
 /*               Function declarations                  */

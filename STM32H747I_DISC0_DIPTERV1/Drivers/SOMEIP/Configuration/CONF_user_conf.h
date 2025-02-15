@@ -20,8 +20,24 @@
 /**
  * [PRS_SOMEIP_00369] The byte order of the parameters inside the payload shall be defined by configuration.
  */
-#define SPECSEQS_PAYLOAD_BIGENDIAN       (1u)
-#define SPECSEQS_PAYLOAD_LITTLEENDIAN    (0u)
+#define PAYLOAD_BIGENDIAN                   TRUE
+#define PAYLOAD_LITTLEENDIAN                FALSE
+
+/**
+ * Communication protocol type selection
+ */
+#define COMMPROT_TYPE_UDP                   TRUE
+#define COMMPROT_TYPE_TCP                   FALSE   /* Not recommended to use */
+
+/**
+ * E2E communication protection
+ */
+#define ENABLE_E2E_PROTECTION               FALSE
+
+/**
+ * Enable to have major and minor interface version numbers.
+ */
+#define INTERFACE_SUBVERSIONS               FALSE
 
 /* **************************************************** */
 /*                  Type definitions                    */
