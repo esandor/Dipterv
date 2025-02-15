@@ -4,6 +4,7 @@
 
 /**
  * @file    skeleton.h
+ * @author  Erdei Sándor (sandorerdei21@gmail.com)
  * @date    2025.02.15
  * @brief   "Provides guidelines for structuring .h files"
  */

@@ -4,6 +4,7 @@
 
 /**
  * @file    CONF_spec_seqs.h
+ * @author  Erdei Sándor (sandorerdei21@gmail.com)
  * @date    2025.02.15
  * @brief   "Provides constants fixed by official specification.
  *          AUTOSAR specification: https://www.autosar.org/fileadmin/standards/R22-11/FO/AUTOSAR_PRS_SOMEIPProtocol.pdf"

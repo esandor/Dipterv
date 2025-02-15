@@ -4,6 +4,7 @@
 
 /**
  * @file    CONF_version.h
+ * @author  Erdei Sándor (sandorerdei21@gmail.com)
  * @date    2025.02.15
  * @brief   ""
  */

@@ -4,6 +4,7 @@
 
 /**
  * @file    INT_basic_types.h
+ * @author  Erdei Sándor (sandorerdei21@gmail.com)
  * @date    2025.02.15
  * @brief   "Provides basic SOME/IP types according to official specification.
  *           AUTOSAR specification: https://www.autosar.org/fileadmin/standards/R22-11/FO/AUTOSAR_PRS_SOMEIPProtocol.pdf"
@@ -167,7 +168,7 @@ typedef uint16 Instance_number;
  */
 typedef uint32 Time_to_live;
 
-// UNEXPLAINED TYPES 
+// UNEXPLAINED TYPES
 typedef uint16 eventgroup_t;
 typedef uint8 major_version_t;
 typedef uint32 minor_version_t;

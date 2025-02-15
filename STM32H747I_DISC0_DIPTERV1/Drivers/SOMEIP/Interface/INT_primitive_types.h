@@ -4,6 +4,7 @@
 
 /**
  * @file    INT_primitive_types.h
+ * @author  Erdei Sándor (sandorerdei21@gmail.com)
  * @date    2025.02.15
  * @brief   "Provides supported, primitive type typenames"
  */
