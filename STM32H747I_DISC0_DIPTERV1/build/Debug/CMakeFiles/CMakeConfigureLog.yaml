@@ -1,0 +1,116 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Linux - 6.8.0-40-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc 
+      Build flags: -Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections
+      Id flags:  
+      
+      The output was:
+      1
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      (.text.exit+0x28): undefined reference to `_exit'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      (.text._close_r+0x18): undefined reference to `_close'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      (.text._lseek_r+0x20): undefined reference to `_lseek'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      (.text._read_r+0x20): undefined reference to `_read'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      (.text._write_r+0x20): undefined reference to `_write'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      (.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc 
+      Build flags: -Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/esandor/STM32Cube/STM32H747I/STM32H747I_DISC0_DIPTERV1/build/Debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++ 
+      Build flags: -Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags:  
+      
+      The output was:
+      1
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      (.text.exit+0x28): undefined reference to `_exit'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      (.text._close_r+0x18): undefined reference to `_close'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      (.text._lseek_r+0x20): undefined reference to `_lseek'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      (.text._read_r+0x20): undefined reference to `_read'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      (.text._write_r+0x20): undefined reference to `_write'
+      /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      (.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/esandor/st/stm32cubeclt_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/esandor/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++ 
+      Build flags: -Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/esandor/STM32Cube/STM32H747I/STM32H747I_DISC0_DIPTERV1/build/Debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+...

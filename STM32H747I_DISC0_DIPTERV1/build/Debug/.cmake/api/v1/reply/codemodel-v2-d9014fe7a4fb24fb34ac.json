@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "STM32H747I_DISC0_DIPTERV1",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "STM32H747I_DISC0_DIPTERV1_CM4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STM32H747I_DISC0_DIPTERV1_CM4-Debug-183473ac70cdc9f30d52.json",
+					"name" : "STM32H747I_DISC0_DIPTERV1_CM4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STM32H747I_DISC0_DIPTERV1_CM7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STM32H747I_DISC0_DIPTERV1_CM7-Debug-c14674f2c8d9b5081bd2.json",
+					"name" : "STM32H747I_DISC0_DIPTERV1_CM7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/esandor/STM32Cube/STM32H747I/STM32H747I_DISC0_DIPTERV1/build/Debug",
+		"source" : "/home/esandor/STM32Cube/STM32H747I/STM32H747I_DISC0_DIPTERV1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
