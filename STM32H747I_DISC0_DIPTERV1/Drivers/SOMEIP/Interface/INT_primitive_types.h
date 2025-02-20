@@ -17,6 +17,7 @@
 /*                       Defines                        */
 /* **************************************************** */
 
+#define NULL            ((void*)(0u))
 #define TRUE            (1u)
 #define FALSE           (0u)
 
